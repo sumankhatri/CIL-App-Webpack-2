@@ -1,0 +1,81 @@
+{
+  "name": "webpacktwo",
+  "version": "1.0.0",
+  "description": "Webpack 2 playground",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node server.js",
+    "build:dll": "cross-env BUILDING_DLL=true webpack --display-chunks --color --config ./webpack/dll.babel.js",
+    "build": "npm run clean && cross-env NODE_ENV=production webpack --config ./webpack/prod.babel.js",
+    "clean": "rimraf dist",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarandikarMihir/webpacktwo.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "jest",
+    ""
+  ],
+  "author": "Mihir Karandikar <karandikar.mihir@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarandikarMihir/webpacktwo/issues"
+  },
+  "homepage": "https://github.com/KarandikarMihir/webpacktwo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "cheerio": "^0.22.0",
+    "circular-dependency-plugin": "^2.0.0",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.26.4",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.24.1",
+    "jest": "^18.1.0",
+    "node-sass": "^4.5.3",
+    "react-test-renderer": "^15.4.2",
+    "resolve-url-loader": "^2.1.0",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.2.0-rc.3",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-dev-server": "^2.2.0-rc.0",
+    "webpack-hot-middleware": "^2.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.2.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-collapsible": "^1.4.0",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router": "^3.0.5",
+    "redux": "^3.6.0",
+    "redux-form": "^6.7.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0",
+    "validator": "^7.0.0"
+  }
+}

@@ -1,0 +1,81 @@
+{
+    "techStack": [
+        {
+            "id": "1",
+            "title": "JAVA",
+            "summary": "Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+            "type": "BTech"
+        },
+        {
+            "title": "React JS",
+            "summary": "React is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+            "type": "FTech"
+        },
+        {
+            "title": "Microservices",
+            "summary": "Microservices is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+            "type": "Architecture"
+        },  
+        {
+            "title": "Block Chain",
+            "summary": "Block chain is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+            "type": "BTech"
+        },
+        {
+            "title": "Angular JS",
+            "summary": "ANgular is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+            "type": "framework"
+        },
+        {
+            "title": "Webpack",
+            "summary": "Webpack is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+            "type": "FBTool"
+        }
+       
+    ],   
+    "ideas": [
+        {
+            "id": "2",
+            "title": "Implement DB BGV process in blockchain",
+            "description": "internal",
+            "status": "Ongoing POC in Lab",
+            "idea by": "Sashi"
+        },
+        {
+            "id": "2",
+            "title": "Global Claim POC in blockchain",
+            "description": "internal",
+            "status": "Completed",
+            "idea by": "Rob ellis"
+        }        
+    ],
+    "labVisits": [
+        {
+            "title": "",
+            "clientName": "Internet Of Things",
+            "clientLocation": "Pune",
+            "miscellaneous": "10:10 AM",
+            "eventDate": "4 JUL 2017",
+            "portfolio": "Rob",            
+            "agenda": "Digitalization"            
+        },
+        {
+            "title": "",
+            "clientName": "Internet Of Things",
+            "clientLocation": "Pune",
+            "miscellaneous": "10:10 AM",
+            "eventDate": "4 JUL 2017",
+            "portfolio": "Rob",            
+            "agenda": "Digitalization"            
+        },
+        {
+            "title": "",
+            "clientName": "Internet Of Things",
+            "clientLocation": "Pune",
+            "miscellaneous": "10:10 AM",
+            "eventDate": "4 JUL 2017",
+            "portfolio": "Rob",            
+            "agenda": "Digitalization"            
+        },
+    ]
+}
